@@ -1,0 +1,124 @@
+/* CSS Reset */
+
+body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style for rules for navigation */
+
+h1, h3 {
+    font-weight: bold;
+    font-family: 'Libre Franklin', sans-serif;
+    color: rgba(168,98,10,1);
+}
+
+h4 {
+    font-weight: bold;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#mainmenu {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    position: relative;
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255, 0));
+    padding-bottom: 1em;
+}
+
+.logo {
+    padding: .80em;
+    position: relative;
+    text-align: left;
+}
+
+.logo img {
+    width: 35%;
+}
+
+nav {
+    background-image: linear-gradient(to right, rgba(168,98,10,1),rgb(255, 255, 255, 0));
+    
+}
+
+nav ul {
+    text-align: left;
+}
+
+nav ul li {
+    margin: .50em;
+    padding-left: 1em;
+    list-style: none;
+    display: inline-block;
+    font-size: .75em;
+    font-weight: bold;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.philosophy{
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+    padding: 1em;
+}
+
+.philosophy p {
+    margin-left: 2em;
+    margin-right: 2em;
+    font-size: .80em;
+}
+
+.schedule {
+    padding-bottom: 4em;
+    padding-left: 1em;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.visit {
+    text-align: center;
+    position: relative;
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+article {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.footer {
+    width: 20%;
+    align-items: center;
+    padding-left: 1em;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: none;
+
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: .75em;
+    padding: .20em;
+}
+
+.hero-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.bold {
+    font-weight: bold;
+    color: rgba(168,98,10,1);
+}
